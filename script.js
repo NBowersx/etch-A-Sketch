@@ -1,4 +1,5 @@
 const container = document.querySelector('#container');
+
 let gridSize = 256//prompt("size");
 
 function makeGrid(gridSize){
@@ -21,7 +22,6 @@ function reset(){
     });
    
 }
-const button = document.querySelector('button');
-
-button.addEventListener('click',reset)
+const resetButton = document.querySelector('.reset');
+resetButton.addEventListener('click',reset)
 
