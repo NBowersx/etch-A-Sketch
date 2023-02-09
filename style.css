@@ -4,20 +4,20 @@ body{
 }
 
 #container{
-    display: flex;
-    flex-wrap: wrap;
-    height: 1px;
-    width: 256px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16,1fr);
+    width: 960px;
+    height: 960px; 
+    
+
 }
 .grid{
-    border-style: solid;
-    border-color: black;
-    object-fit: contain;
-    height: 10px;
-    width: 10px;
-
+    border: 1px solid black; 
+    max-height: 100%;
+    max-width: 100%;
 }
 .red{
     border-color: red;
-    background-color: rgb(255, 5, 5);
+    background-color: rgb(0, 0, 0);
 }
