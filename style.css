@@ -1,0 +1,23 @@
+
+body{
+    background-color: grey;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1px;
+    width: 256px;
+}
+.grid{
+    border-style: solid;
+    border-color: black;
+    object-fit: contain;
+    height: 10px;
+    width: 10px;
+
+}
+.red{
+    border-color: red;
+    background-color: black;
+}
