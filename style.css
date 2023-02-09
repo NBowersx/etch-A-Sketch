@@ -19,5 +19,5 @@ body{
 }
 .red{
     border-color: red;
-    background-color: black;
+    background-color: rgb(255, 5, 5);
 }

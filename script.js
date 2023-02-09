@@ -14,4 +14,14 @@ grid.forEach(grid => {
 function draw(e){
     e.target.classList.add('red');   
 }})
+function reset(){
+    let grid =document.querySelectorAll('.grid')
+    grid.forEach(grid => {
+     grid.classList.remove('red');    
+    });
+   
+}
+const button = document.querySelector('button');
+
+button.addEventListener('click',reset)
 
