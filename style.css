@@ -6,9 +6,8 @@ body{
 #container{
     display: grid;
     width: 960px;
-    height: 960px; 
-    
-
+    height: 960px;
+    margin: auto;
 }
 .grid{
     border: 1px solid black; 
@@ -18,4 +17,9 @@ body{
 .red{
     border-color: red;
     background-color: rgb(0, 0, 0);
+}
+#functionBar{
+   text-align: center;
+   width: 960px;
+   margin: 15px auto;
 }
